@@ -599,4 +599,22 @@ def tabla_validacion_cruzada(df=None, tol_rel=1e-4):
 
 # -- FLUJO PRINCIPAL --
 if __name__ == "__main__":
-    print("Nada aun")
+    archivos = [
+        "Solomon_C101_15c_3d_multi.json",
+        "Solomon_R101_15c_3d_multi.json"
+    ]
+    
+    instancias = []
+    for path in archivos:
+        if os.path.exists(path):
+            instancias.append(Instance.load_json(path))
+        else:
+            print(f"Archivo no encontrado: {path}")
+
+    chequear_entorno(instancias)
+    
+    df_resultados = correr_comparacion(instancias)
+    
+    print("\n>>> TABLA DE VALIDACIÓN CRUZADA <<<")
+    tabla = tabla_validacion_cruzada(df_resultados)
+    print(tabla.to_string())
