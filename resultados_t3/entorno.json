@@ -3,7 +3,7 @@
   "so": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
   "cpu": "",
   "n_cpu": 4,
-  "gurobi": "(14, 0, 0)",
+  "gurobi": "(13, 0, 3)",
   "cplex": "22.2.0.0",
   "config": {
     "THREADS": 1,
