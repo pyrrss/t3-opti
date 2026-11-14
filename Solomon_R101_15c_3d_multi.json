@@ -1,0 +1,339 @@
+{
+  "name": "Solomon_R101_15c_3d_multi",
+  "source": "CVRPLIB - Solomon R101 adaptado",
+  "days": [
+    1,
+    2,
+    3
+  ],
+  "routes": [
+    1,
+    2,
+    3
+  ],
+  "routes_capacity": 80,
+  "deposit_xy": [
+    35.0,
+    35.0
+  ],
+  "deposit_opening": 0.0,
+  "deposit_closing": 960.0,
+  "description": "R101 (dispersa): ventanas +-20, servicio 15, Q=108 (muy ajustada), clientes 5,10,15 sin ventana. | Multi-d\u00eda: 31/45 pedidos, Q=80.",
+  "params": {},
+  "clients": [
+    {
+      "index": 1,
+      "x": 41,
+      "y": 49,
+      "window": [
+        121.0,
+        211.0
+      ]
+    },
+    {
+      "index": 2,
+      "x": 35,
+      "y": 17,
+      "window": [
+        10.0,
+        100.0
+      ]
+    },
+    {
+      "index": 3,
+      "x": 55,
+      "y": 45,
+      "window": [
+        76.0,
+        166.0
+      ]
+    },
+    {
+      "index": 4,
+      "x": 55,
+      "y": 20,
+      "window": [
+        109.0,
+        199.0
+      ]
+    },
+    {
+      "index": 5,
+      "x": 15,
+      "y": 30,
+      "window": null
+    },
+    {
+      "index": 6,
+      "x": 25,
+      "y": 30,
+      "window": [
+        59.0,
+        149.0
+      ]
+    },
+    {
+      "index": 7,
+      "x": 20,
+      "y": 50,
+      "window": [
+        41.0,
+        131.0
+      ]
+    },
+    {
+      "index": 8,
+      "x": 10,
+      "y": 43,
+      "window": [
+        55.0,
+        145.0
+      ]
+    },
+    {
+      "index": 9,
+      "x": 55,
+      "y": 60,
+      "window": [
+        57.0,
+        147.0
+      ]
+    },
+    {
+      "index": 10,
+      "x": 30,
+      "y": 60,
+      "window": null
+    },
+    {
+      "index": 11,
+      "x": 20,
+      "y": 65,
+      "window": [
+        27.0,
+        117.0
+      ]
+    },
+    {
+      "index": 12,
+      "x": 50,
+      "y": 35,
+      "window": [
+        23.0,
+        113.0
+      ]
+    },
+    {
+      "index": 13,
+      "x": 30,
+      "y": 25,
+      "window": [
+        119.0,
+        209.0
+      ]
+    },
+    {
+      "index": 14,
+      "x": 15,
+      "y": 10,
+      "window": [
+        83.0,
+        173.0
+      ]
+    },
+    {
+      "index": 15,
+      "x": 30,
+      "y": 5,
+      "window": null
+    }
+  ],
+  "orders": [
+    {
+      "client": 1,
+      "day": 1,
+      "q_it": 18,
+      "st_it": 15
+    },
+    {
+      "client": 2,
+      "day": 1,
+      "q_it": 26,
+      "st_it": 15
+    },
+    {
+      "client": 4,
+      "day": 1,
+      "q_it": 30,
+      "st_it": 15
+    },
+    {
+      "client": 5,
+      "day": 1,
+      "q_it": 21,
+      "st_it": 15
+    },
+    {
+      "client": 6,
+      "day": 1,
+      "q_it": 19,
+      "st_it": 15
+    },
+    {
+      "client": 8,
+      "day": 1,
+      "q_it": 16,
+      "st_it": 15
+    },
+    {
+      "client": 9,
+      "day": 1,
+      "q_it": 29,
+      "st_it": 15
+    },
+    {
+      "client": 12,
+      "day": 1,
+      "q_it": 25,
+      "st_it": 15
+    },
+    {
+      "client": 13,
+      "day": 1,
+      "q_it": 14,
+      "st_it": 15
+    },
+    {
+      "client": 15,
+      "day": 1,
+      "q_it": 27,
+      "st_it": 15
+    },
+    {
+      "client": 1,
+      "day": 2,
+      "q_it": 22,
+      "st_it": 15
+    },
+    {
+      "client": 2,
+      "day": 2,
+      "q_it": 14,
+      "st_it": 15
+    },
+    {
+      "client": 3,
+      "day": 2,
+      "q_it": 25,
+      "st_it": 15
+    },
+    {
+      "client": 4,
+      "day": 2,
+      "q_it": 18,
+      "st_it": 15
+    },
+    {
+      "client": 6,
+      "day": 2,
+      "q_it": 28,
+      "st_it": 15
+    },
+    {
+      "client": 8,
+      "day": 2,
+      "q_it": 19,
+      "st_it": 15
+    },
+    {
+      "client": 10,
+      "day": 2,
+      "q_it": 17,
+      "st_it": 15
+    },
+    {
+      "client": 11,
+      "day": 2,
+      "q_it": 26,
+      "st_it": 15
+    },
+    {
+      "client": 13,
+      "day": 2,
+      "q_it": 21,
+      "st_it": 15
+    },
+    {
+      "client": 14,
+      "day": 2,
+      "q_it": 30,
+      "st_it": 15
+    },
+    {
+      "client": 15,
+      "day": 2,
+      "q_it": 16,
+      "st_it": 15
+    },
+    {
+      "client": 1,
+      "day": 3,
+      "q_it": 15,
+      "st_it": 15
+    },
+    {
+      "client": 3,
+      "day": 3,
+      "q_it": 19,
+      "st_it": 15
+    },
+    {
+      "client": 4,
+      "day": 3,
+      "q_it": 22,
+      "st_it": 15
+    },
+    {
+      "client": 5,
+      "day": 3,
+      "q_it": 27,
+      "st_it": 15
+    },
+    {
+      "client": 7,
+      "day": 3,
+      "q_it": 18,
+      "st_it": 15
+    },
+    {
+      "client": 8,
+      "day": 3,
+      "q_it": 25,
+      "st_it": 15
+    },
+    {
+      "client": 9,
+      "day": 3,
+      "q_it": 20,
+      "st_it": 15
+    },
+    {
+      "client": 11,
+      "day": 3,
+      "q_it": 12,
+      "st_it": 15
+    },
+    {
+      "client": 13,
+      "day": 3,
+      "q_it": 26,
+      "st_it": 15
+    },
+    {
+      "client": 14,
+      "day": 3,
+      "q_it": 17,
+      "st_it": 15
+    }
+  ]
+}
