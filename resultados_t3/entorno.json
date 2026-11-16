@@ -1,8 +1,8 @@
 {
-  "python": "3.14.7",
-  "so": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
-  "cpu": "",
-  "n_cpu": 4,
+  "python": "3.13.7",
+  "so": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "n_cpu": 12,
   "gurobi": "(13, 0, 3)",
   "cplex": "22.2.0.0",
   "config": {

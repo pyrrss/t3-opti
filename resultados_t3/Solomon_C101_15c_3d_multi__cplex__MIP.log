@@ -8,8 +8,8 @@ MIP Presolve modified 921 coefficients.
 Reduced MIP has 660 rows, 874 columns, and 3126 nonzeros.
 Reduced MIP has 843 binaries, 0 generals, 0 SOSs, and 0 indicators.
 Presolve time = 0.00 sec. (2.90 ticks)
-Found incumbent of value 660.245131 after 0.01 sec. (5.99 ticks)
-Probing time = 0.01 sec. (2.98 ticks)
+Found incumbent of value 660.245131 after 0.00 sec. (5.99 ticks)
+Probing time = 0.02 sec. (2.98 ticks)
 Tried aggregator 1 time.
 Detecting symmetries...
 MIP Presolve modified 66 coefficients.
@@ -21,7 +21,7 @@ Clique table members: 1864.
 MIP emphasis: balance optimality and feasibility.
 MIP search method: dynamic search.
 Parallel mode: none, using 1 thread.
-Root relaxation solution time = 0.01 sec. (5.28 ticks)
+Root relaxation solution time = 0.00 sec. (5.28 ticks)
 
         Nodes                                         Cuts/
    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
@@ -32,7 +32,7 @@ Root relaxation solution time = 0.01 sec. (5.28 ticks)
       0     0      145.4768   138      558.6304     Cuts: 106      292   73.96%
       0     0      145.4768   138      558.6304      Cuts: 32      302   73.96%
       0     2      149.2296   119      558.6304      149.2296      352   73.29%
-Elapsed time = 0.12 sec. (92.77 ticks, tree = 0.01 MB, solutions = 2)
+Elapsed time = 0.09 sec. (92.77 ticks, tree = 0.01 MB, solutions = 2)
 *    60+   50                          536.1549      157.8631            70.56%
 *    70+   58                          535.5478      157.8631            70.52%
 *   170+  136                          534.5620      159.8932            70.09%
@@ -51,7 +51,7 @@ Tried aggregator 1 time.
 MIP Presolve eliminated 45 rows and 63 columns.
 Reduced MIP has 615 rows, 811 columns, and 2881 nonzeros.
 Reduced MIP has 780 binaries, 0 generals, 0 SOSs, and 0 indicators.
-Presolve time = 0.00 sec. (1.74 ticks)
+Presolve time = 0.02 sec. (1.74 ticks)
 Tried aggregator 1 time.
 Reduced MIP has 615 rows, 811 columns, and 2881 nonzeros.
 Reduced MIP has 780 binaries, 0 generals, 0 SOSs, and 0 indicators.
@@ -112,7 +112,7 @@ Represolve time = 0.03 sec. (16.12 ticks)
    1123    54      369.2443   142      504.0729      298.6351    26076   40.76%
    1189   103      331.7123    81      504.0729      300.9943    27957   40.29%
    1609   411      343.5326    76      504.0729      327.2467    38051   35.08%
-Elapsed time = 5.65 sec. (4490.44 ticks, tree = 1.10 MB, solutions = 11)
+Elapsed time = 3.92 sec. (4490.45 ticks, tree = 1.10 MB, solutions = 11)
    1968   628        cutoff            504.0729      337.8491    49149   32.98%
    2491   996      406.7228   119      504.0729      350.7352    60656   30.42%
    3027  1353      463.3500    76      504.0729      358.2160    72820   28.94%
@@ -124,7 +124,7 @@ Elapsed time = 5.65 sec. (4490.44 ticks, tree = 1.10 MB, solutions = 11)
    6430  3275        cutoff            504.0729      385.4940   153330   23.52%
 *  6990+ 3528                          500.6883      388.5028            22.41%
    7020  3548        cutoff            500.6883      388.6192   168233   22.38%
-Elapsed time = 17.75 sec. (14056.41 ticks, tree = 8.69 MB, solutions = 12)
+Elapsed time = 11.91 sec. (14056.42 ticks, tree = 8.69 MB, solutions = 12)
    7641  3869      419.9742   112      500.6883      391.6284   182585   21.78%
 *  8050+ 4047                          500.1488      393.5444            21.31%
    8196  4131      494.1217    62      500.1488      393.9737   197249   21.23%
@@ -138,7 +138,7 @@ Elapsed time = 17.75 sec. (14056.41 ticks, tree = 8.69 MB, solutions = 12)
   11665  5326      419.9839   100      494.6213      410.0162   284702   17.11%
   12261  5518        cutoff            494.6213      412.2717   298527   16.65%
   12907  5733      428.8915   107      494.6213      413.8848   312651   16.32%
-Elapsed time = 29.56 sec. (23629.31 ticks, tree = 8.74 MB, solutions = 15)
+Elapsed time = 20.30 sec. (23629.32 ticks, tree = 8.74 MB, solutions = 15)
   13469  5882        cutoff            494.6213      415.8114   326361   15.93%
   14063  6063      490.1753    82      494.6213      417.1977   341486   15.65%
   14660  6163      430.7030    82      494.6213      419.3030   356407   15.23%
@@ -149,7 +149,7 @@ Elapsed time = 29.56 sec. (23629.31 ticks, tree = 8.74 MB, solutions = 15)
   17091  6441      455.5735    61      494.6213      427.2683   422147   13.62%
   17584  6490      470.9121    61      494.6213      428.6996   435081   13.33%
   18060  6526      480.5645   101      494.6213      430.1645   448657   13.03%
-Elapsed time = 43.60 sec. (33198.25 ticks, tree = 7.98 MB, solutions = 15)
+Elapsed time = 28.70 sec. (33198.26 ticks, tree = 7.98 MB, solutions = 15)
   18561  6603      456.7467   138      494.6213      431.4603   462097   12.77%
   18993  6601      479.6348    94      494.6213      432.8160   475798   12.50%
   19494  6635        cutoff            494.6213      434.3948   489805   12.18%
@@ -160,7 +160,7 @@ Elapsed time = 43.60 sec. (33198.25 ticks, tree = 7.98 MB, solutions = 15)
   21774  6417      480.7544    34      494.6213      441.1963   556469   10.80%
   22280  6346      445.9381   101      494.6213      442.2941   569100   10.58%
   22765  6309        cutoff            494.6213      443.5473   581534   10.33%
-Elapsed time = 56.71 sec. (42753.59 ticks, tree = 7.12 MB, solutions = 15)
+Elapsed time = 37.70 sec. (42753.60 ticks, tree = 7.12 MB, solutions = 15)
   23277  6231      486.5880    91      494.6213      444.9478   594469   10.04%
   23868  6108      486.1157    87      494.6213      446.3670   608565    9.76%
   24447  6020      470.2599    37      494.6213      447.7230   622218    9.48%
@@ -171,7 +171,7 @@ Elapsed time = 56.71 sec. (42753.59 ticks, tree = 7.12 MB, solutions = 15)
   27414  5385        cutoff            494.6213      454.2827   693135    8.16%
   28050  5160        cutoff            494.6213      455.9627   708291    7.82%
   28693  4946      480.2085    75      494.6213      457.5356   722096    7.50%
-Elapsed time = 70.46 sec. (52299.94 ticks, tree = 5.19 MB, solutions = 15)
+Elapsed time = 46.12 sec. (52299.95 ticks, tree = 5.19 MB, solutions = 15)
   29346  4709      517.7307    53      494.6213      459.1561   736348    7.17%
   29933  4462        cutoff            494.6213      460.5438   750200    6.89%
   30553  4201      484.9272    73      494.6213      462.3748   763861    6.52%
@@ -182,7 +182,7 @@ Elapsed time = 70.46 sec. (52299.94 ticks, tree = 5.19 MB, solutions = 15)
   33885  2577      479.4582    48      494.6213      471.9141   830221    4.59%
   34762  2045      477.5702    27      494.6213      474.9801   843889    3.97%
   35722  1438    infeasible            494.6213      478.8182   856633    3.19%
-Elapsed time = 83.94 sec. (61869.94 ticks, tree = 1.64 MB, solutions = 15)
+Elapsed time = 53.88 sec. (61869.95 ticks, tree = 1.64 MB, solutions = 15)
   36833   639      485.8473    27      494.6213      485.6943   868775    1.80%
 
 GUB cover cuts applied:  10
@@ -195,8 +195,8 @@ Zero-half cuts applied:  66
 Gomory fractional cuts applied:  6
 
 Root node processing (before b&c):
-  Real time             =    0.12 sec. (92.86 ticks)
+  Real time             =    0.09 sec. (92.86 ticks)
 Sequential b&c:
-  Real time             =   85.75 sec. (63255.56 ticks)
+  Real time             =   54.84 sec. (63255.57 ticks)
                           ------------
-Total (root+branch&cut) =   85.87 sec. (63348.41 ticks)
+Total (root+branch&cut) =   54.94 sec. (63348.42 ticks)

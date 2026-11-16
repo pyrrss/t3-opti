@@ -5,7 +5,7 @@ CPXPARAM_TimeLimit                               600
 Tried aggregator 1 time.
 LP Presolve eliminated 422 rows and 21 columns.
 Reduced LP has 660 rows, 865 columns, and 3117 nonzeros.
-Presolve time = 0.01 sec. (1.18 ticks)
+Presolve time = 0.00 sec. (1.18 ticks)
 Symmetry aggregator did 986 additional substitutions.
 Initializing dual steep norms . . .
 

@@ -1,9 +1,9 @@
 instancia,solver,modo,estado,objetivo,cota,gap_pct,nodos,tiempo_s,n_vars,n_constr,error,log
-Solomon_C101_15c_3d_multi,gurobi,LP,OPTIMAL,145.4768,145.4768,0.0,0,0.01,886,1082,,resultados_t3/Solomon_C101_15c_3d_multi__gurobi__LP.log
-Solomon_C101_15c_3d_multi,cplex,LP,optimal,145.4768,145.4768,0.0,0,0.01,886,1082,,resultados_t3/Solomon_C101_15c_3d_multi__cplex__LP.log
-Solomon_C101_15c_3d_multi,gurobi,MIP,OPTIMAL,494.6213,494.5978,0.0047,48174,54.1,886,1082,,resultados_t3/Solomon_C101_15c_3d_multi__gurobi__MIP.log
-Solomon_C101_15c_3d_multi,cplex,MIP,"integer optimal, tolerance",494.6213,494.6172,0.0008,37601,85.87,886,1082,,resultados_t3/Solomon_C101_15c_3d_multi__cplex__MIP.log
-Solomon_R101_15c_3d_multi,gurobi,LP,OPTIMAL,553.9446,553.9446,0.0,0,0.02,997,1183,,resultados_t3/Solomon_R101_15c_3d_multi__gurobi__LP.log
-Solomon_R101_15c_3d_multi,cplex,LP,optimal,553.9446,553.9446,0.0,0,0.01,997,1183,,resultados_t3/Solomon_R101_15c_3d_multi__cplex__LP.log
-Solomon_R101_15c_3d_multi,gurobi,MIP,OPTIMAL,904.4815,904.4815,0.0,3711,7.49,997,1183,,resultados_t3/Solomon_R101_15c_3d_multi__gurobi__MIP.log
-Solomon_R101_15c_3d_multi,cplex,MIP,integer optimal solution,904.4815,904.4815,0.0,1066,1.47,997,1183,,resultados_t3/Solomon_R101_15c_3d_multi__cplex__MIP.log
+Solomon_C101_15c_3d_multi,gurobi,LP,OPTIMAL,145.4768,145.4768,0.0,0,0.01,886,1082,,resultados_t3\Solomon_C101_15c_3d_multi__gurobi__LP.log
+Solomon_C101_15c_3d_multi,cplex,LP,optimal,145.4768,145.4768,0.0,0,0.0,886,1082,,resultados_t3\Solomon_C101_15c_3d_multi__cplex__LP.log
+Solomon_C101_15c_3d_multi,gurobi,MIP,OPTIMAL,494.6213,494.5799,0.0084,49350,39.32,886,1082,,resultados_t3\Solomon_C101_15c_3d_multi__gurobi__MIP.log
+Solomon_C101_15c_3d_multi,cplex,MIP,"integer optimal, tolerance",494.6213,494.6172,0.0008,37601,54.94,886,1082,,resultados_t3\Solomon_C101_15c_3d_multi__cplex__MIP.log
+Solomon_R101_15c_3d_multi,gurobi,LP,OPTIMAL,553.9446,553.9446,0.0,0,0.01,997,1183,,resultados_t3\Solomon_R101_15c_3d_multi__gurobi__LP.log
+Solomon_R101_15c_3d_multi,cplex,LP,optimal,553.9446,553.9446,0.0,0,0.02,997,1183,,resultados_t3\Solomon_R101_15c_3d_multi__cplex__LP.log
+Solomon_R101_15c_3d_multi,gurobi,MIP,OPTIMAL,904.4815,904.4815,0.0,4882,8.74,997,1183,,resultados_t3\Solomon_R101_15c_3d_multi__gurobi__MIP.log
+Solomon_R101_15c_3d_multi,cplex,MIP,integer optimal solution,904.4815,904.4815,0.0,1066,0.97,997,1183,,resultados_t3\Solomon_R101_15c_3d_multi__cplex__MIP.log
